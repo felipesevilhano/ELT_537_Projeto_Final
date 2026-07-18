@@ -1,0 +1,37 @@
+# MATLAB - arquivos temporários e de backup
+*.asv
+*.m~
+*.mex*
+*.mlapp.bak
+
+# MATLAB - arquivos gerados
+*.mat
+slprj/
+*.slxc
+*.mexw64
+*.mexw32
+*.mexmaci64
+*.mexglx
+*.mexa64
+
+# Simulink
+*.slx.r*
+*.mdl.r*
+
+# MATLAB Code Generation
+codegen/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
