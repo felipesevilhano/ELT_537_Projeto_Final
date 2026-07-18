@@ -217,7 +217,7 @@ classdef Simulacao < handle
             figure('Name','Evolução de \psi')
             plot(t, rad2deg(d(:,iPsid)), 'r--', t, rad2deg(d(:,iPsi)), 'b-', 'LineWidth', 1.5)
             xlabel('t [s]'), ylabel('\psi [graus]')
-            title('Evolução temporal de \psi (yaw)')
+            title('Evolução temporal de \psi')
             legend('\psi_d', '\psi'), grid on
 
             % ── Sinais de controle ────────────────────────────────────────
